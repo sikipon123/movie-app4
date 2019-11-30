@@ -1,0 +1,114 @@
+.App {
+  background-image: url("https://img1.picmix.com/output/stamp/normal/7/9/2/0/1350297_277de.gif");
+  width: 100%;
+  height: 100vw;
+}
+.maj {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.active-cyan-4 input[type="text"]:focus:not([readonly]) {
+  border: 1px solid #4dd0e1;
+  box-shadow: 0 0 0 1px #4dd0e1;
+}
+.active-cyan-3 input[type="text"] {
+  border: 1px solid #4dd0e1;
+  box-shadow: 0 0 0 1px #4dd0e1;
+}
+.searchinput {
+  width: 70%;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 100px;
+  flex-wrap: wrap;
+  top: 50px;
+  width: 80%;
+}
+
+.box-vision {
+  margin-bottom: 25px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin-left: 10px;
+}
+
+.box-img {
+  width: 300px;
+  height: 350px;
+}
+
+.box-vision:hover {
+  box-shadow: 3px 4px 25px 5px #f7b42c;
+  text-decoration: none;
+}
+
+.division {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.division p {
+  color: #f7b42c;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.movierate {
+  font-size: 25px;
+  position: absolute;
+  right: 5px;
+  bottom: 365px;
+  color: #f7b42c;
+}
+
+.searchstars {
+  font-size: 50px;
+  position: absolute;
+  right: 15px;
+  top: -10px;
+  color: #f7b42c;
+}
+
+.PageHeading {
+  color: blue;
+  background-color: lightgreen;
+  margin-top: 20px;
+}
+
+.addmoviemodalbody {
+  margin-right: 970px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin-left: 100px;
+}
+
+.addmoviemodalbody:hover {
+  box-shadow: 3px 4px 25px 5px #f7b42c;
+  text-decoration: none;
+}
+
+.addmoviemodal {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.addmoviemodal img {
+  width: 250px;
+  height: 270px;
+}
+
+.addmoviemodal p {
+  color: #f7b42c;
+  font-size: 25px;
+  text-decoration: none;
+  align-self: center;
+}
